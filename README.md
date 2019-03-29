@@ -21,8 +21,10 @@ npm install @bit-wrangler/dom-nav
 
 ```typescript
 document.addEventListener('click', event => {
-    const xpath = createXPath(event.target as HTMLElement);
-    console.log(xpath);
-    console.log(navigateToElementByXPath(document.getElementsByTagName('html')[0], xpath));
+    const path = createElementPath(event.target as HTMLElement);
+    console.log(path);
+    console.log(navigateToElementByPath(document.getElementsByTagName('html')[0], path));
 });
 ```
+
+Then click anywhere and check out the console logs.
