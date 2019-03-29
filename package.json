@@ -1,0 +1,25 @@
+{
+  "name": "@bit-wrangler/dom-nav",
+  "version": "0.1.0",
+  "description": "Create paths for elements and navigate the element tree using same path.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "npm",
+    "dom",
+    "path",
+    "element",
+    "navigation"
+  ],
+  "author": "Aleksandr Spiridonov",
+  "repository": "bit-wrangler/dom-nav",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^3.3.4000"
+  }
+}
