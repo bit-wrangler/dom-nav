@@ -1,6 +1,6 @@
 {
   "name": "@bit-wrangler/dom-nav",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Create paths for elements and navigate the element tree using same path.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
